@@ -1,0 +1,43 @@
+import pyautogui as bot
+import xlrd
+
+
+
+bot.click(1804, 15)
+for i in range(100):
+    bot.sleep(1)
+    bot.press('down')
+    bot.press('tab')
+    bot.press('enter')
+    bot.sleep(4)
+    bot.click(294, 51)
+    bot.sleep(0.3)
+    bot.moveTo(456, 130)
+    bot.sleep(0.2)
+    bot.moveTo(681, 129)
+    bot.sleep(0.2)
+    bot.moveTo(681, 174)
+    bot.sleep(0.2)
+    bot.click(974, 170)
+    bot.sleep(4.5)
+    bot.hotkey('winleft','up')
+    bot.sleep(0.5)
+    bot.click(620, 92)
+    bot.sleep(0.2)
+    bot.click(345, 220)
+    for i in range(9):
+        bot.press('tab')
+    bot.sleep(0.1)
+    bot.write('')
+    bot.sleep(0.1)
+    bot.press('tab')
+    bot.write('300625')
+    bot.click(1799, 996)
+    bot.sleep(0.5)
+    bot.hotkey('alt','f4')
+    bot.sleep(2)
+    bot.click(1868, 51)
+    bot.sleep(1.5)
+    bot.click(1663, 409)
+    bot.sleep(2.5)
+    bot.hotkey('shift','tab')
