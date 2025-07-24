@@ -1,0 +1,17 @@
+import pyautogui as bot
+
+bot.click(586, 489)
+bot.click(586, 489)
+bot.press('tab')
+bot.write('')
+bot.press('tab')
+bot.press('tab')
+bot.write('')
+bot.press('tab')
+bot.press('tab')
+bot.press('tab')
+bot.write('')
+bot.press('tab')
+bot.press('tab')
+bot.press('tab')
+bot.press('enter')
